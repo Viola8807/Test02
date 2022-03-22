@@ -1,0 +1,22 @@
+Feature (Title):"  "Succesful Login functionality"
+
+Given I am as a User in the facebook welcome page.
+
+When as a User I enter valid USERNAME  and valid PASSWORD
+
+And as a User I click the button Login
+
+Then I see the homepage
+
+
+
+
+Feature (Title):"  "Invalid credentials handling functionality"
+
+Given I am as a User in the facebook welcome page.
+
+When I enter invalid login() and enter invalid password().
+
+And as a User I click the button Login
+
+ThenI see the error message
