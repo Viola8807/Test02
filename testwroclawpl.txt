@@ -188,7 +188,7 @@ And I see a message about the possilbility of receiving a notification
 
 And I click on the thank you button 
 
-And I see the window disappear 
+Then I see the window disappear 
 
 
 Test Case 15
