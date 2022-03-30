@@ -1,0 +1,852 @@
+Test Case: 1
+
+Function (name):" "Personal data processing notice, agreement"
+
+Given that I am not a user on the main page page
+
+When I first go to the main page
+
+And I see a message about the processing of personal data
+
+And as the user click the agree button 
+
+Then I see that window disappears 
+
+
+Test Case: 2
+
+Function (name):" "Personal data processing notice, settings"
+
+Given that I am not a user on the main page page
+
+When I first go to the main page
+
+And I see a message about the processing of personal data
+
+And as the user click the settings button 
+
+And I see that a message opens for me with a choice of preferred cookie settihgs 
+
+And as a user I click the select all and save button 
+
+Then I see a message confirming consent to data processing 
+
+And as a user I click the button I agfee 
+
+Then I see that the window with the data processing message disappears 
+
+
+
+
+Test Case: 3 
+
+Function (name):" "Different Languages Support, English"
+
+Given that I am a user on the main page
+
+When I click the button to change the language to english 
+
+And I see that the page is reloading 
+
+Then I see that the entire main page is translated into english
+
+
+Test Case 4 
+
+Function (name): "Different Languages Sapport, Ukrainian" 
+
+Given that I am a user on the main page
+
+When I click the button to change the the language to ukrainian 
+
+And I see that the page is reloading 
+
+Then I see that the entire main page is translated into ukrainian 
+
+
+
+Test Case 5
+
+Function (name): "Hovering elements in the main page, for a resident"
+
+Given that I am a user on the main page 
+
+When I hover over the section for the rasident in the menu section 
+
+Then I see popup window with additional sections 
+
+
+Test Case 6
+
+Function (name): "Howering elements in the main page, communication"
+
+Given that I am a user on the main page
+
+When I hover over the section communicstion in the menu section 
+
+Then I see popup window with additional sections 
+
+
+
+Test Case 7
+
+Function (name): "Howering elements in the main page, culture"
+
+Given that I am a user on the main page
+
+When I hover over the section culture in the menu section 
+
+Then I see popup window with additional sections 
+
+
+Test Case 8
+
+Function (name): "Howering elements in the main page, education"
+
+Given that I am a user on the main page
+
+When I hover over the section "education" in the menu section 
+
+Then I see popup window with additional sections 
+
+
+Test Case 9
+
+Function (name): "Howering elements in the main page, environment"
+
+Given that I am a user on the main page
+
+When I hover over the section "environment" in the menu section 
+
+Then I see popup window with additional sections 
+
+
+Test Case 10
+
+Function (name): "Howering elements in the main page, tourims"
+
+Given that I am a user on the main page
+
+When I hover over the section "tourims" in the menu section 
+
+Then I see popup window with additional sections 
+
+
+
+Test Case 11
+
+Function (name): "Howering elements in the main page, biznes"
+
+Given that I am a user on the main page
+
+When I hover over the section "biznes" in the menu section 
+
+Then I see popup window with additional sections 
+
+
+Test Case 12
+
+Function (name): "Howering elements in the main page, office"
+
+Given that I am a user on the main page
+
+When I hover over the section "office" in the menu section 
+
+Then I see popup window with additional sections 
+
+
+Test Case 13
+
+Function (name): "Howering elements in the main page, more"
+
+Given that I am a user on the main page
+
+When I hover over the section "more" in the menu section 
+
+Then I see popup window with additional sections 
+
+
+Test Case 14
+
+Function (name): " Does all the links menu work, for a resident - laster"
+
+Given that I am a user on the main page 
+
+When I hover over the section for the rasident in the menu section 
+
+And I see popup wimdow with additional sections 
+
+And I hover over the "laster" section
+
+And I click on the selected section 
+
+And I see that the page has reloaded 
+
+Then I see the page 
+
+And I see a message about the possilbility of receiving a notification 
+
+And I click on the thank you button 
+
+And I see the window disappear 
+
+
+Test Case 15
+
+Function (name): "Does all the links menu work, for a resident - warnings and messages"
+
+Given that I am a user on the main page 
+
+When I hover over the section for the resident in the menu section 
+
+And I see popup wimdow with additional sections 
+
+And I hover over the "warnings and messages"
+
+And I click on the selected section 
+
+And I see that the page has reloaded 
+
+Then I see that the page of the selected section has loaded
+
+
+
+Test Case 16
+
+Function (name): "Does all the links menu work, for a resident - warnings and messages"
+
+Given that I am a user on the main page 
+
+When I hover over the section for the resident in the menu section 
+
+And I see popup wimdow with additional sections 
+
+And I hover over the "warnings and messages"
+
+And I click on the selected section with the left mouse button
+
+And I ckick on the "open link in new tab" section
+
+And I see a new tab open 
+
+And I click on this new tab 
+
+Then I see that the page of the selected section has loaded in a new tab
+
+
+Test Case 17
+
+Function (name): "Does all the links menu work, for a resident- my estate"
+
+Given that I am a user on the main page 
+
+When I hover over the section for the resident in the menu section 
+
+And I see popup wimdow with additional sections 
+
+And I hover over the "my estate"
+
+And I click on the selected section 
+
+And I see that the page has reloaded 
+
+Then I see that the page of the selected section has loaded
+
+
+Test Case 18
+
+Function (name): "Does all the links menu work, for a resident - my estate"
+
+Given that I am a user on the main page 
+
+When I hover over the section for the resident in the menu section 
+
+And I see popup wimdow with additional sections 
+
+And I hover over the "my estate"
+
+And I click on the selected section with the left mouse button
+
+And I ckick on the "open link in new tab" section
+
+And I see a new tab open 
+
+And I click on this new tab 
+
+Then I see that the page of the selected section has loaded in a new tab
+
+
+Test Case 19
+
+Function (name): "Does all the links menu work, for a resident - NGO"
+
+Given that I am a user on the main page 
+
+When I hover over the section for the resident in the menu section 
+
+And I see popup wimdow with additional sections 
+
+And I hover over the "NGO"
+
+And I click on the selected section 
+
+And I see that the page has reloaded 
+
+Then I see that the page of the selected section has loaded
+
+
+Test Case 20
+
+Function (name): "Does all the links menu work, for a resident - NGO"
+
+Given that I am a user on the main page 
+
+When I hover over the section for the resident in the menu section 
+
+And I see popup wimdow with additional sections 
+
+And I hover over the "NGO"
+
+And I click on the selected section with the left mouse button
+
+And I ckick on the "open link in new tab" section
+
+And I see a new tab open 
+
+And I click on this new tab 
+
+Then I see that the page of the selected section has loaded in a new tab
+
+
+Test Case 21
+
+Function (name): "Does all the links menu work, for a resident - passionate residents of Wroclaw"
+
+Given that I am a user on the main page 
+
+When I hover over the section for the resident in the menu section 
+
+And I see popup wimdow with additional sections 
+
+And I hover over the "passionate residents of Wroclaw"
+
+And I click on the selected section 
+
+And I see that the page has reloaded 
+
+Then I see that the page of the selected section has loaded
+
+
+Test Case 22
+
+Function (name): "Does all the links menu work, for a resident - passionate residents of Wroclaw"
+
+Given that I am a user on the main page 
+
+When I hover over the section for the resident in the menu section 
+
+And I see popup wimdow with additional sections 
+
+And I hover over the "passionate residents of Wroclaw"
+
+And I click on the selected section with the left mouse button
+
+And I ckick on the "open link in new tab" section
+
+And I see a new tab open 
+
+And I click on this new tab 
+
+Then I see that the page of the selected section has loaded in a new tab
+
+
+Test Case 23
+
+Function (name): "Does all the links menu work, for a resident - for seniors"
+
+Given that I am a user on the main page 
+
+When I hover over the section for the resident in the menu section 
+
+And I see popup wimdow with additional sections 
+
+And I hover over the "for seniors"
+
+And I click on the selected section 
+
+And I see that the page has reloaded 
+
+Then I see that the page of the selected section has loaded
+
+
+Test Case 24
+
+Function (name): "Does all the links menu work, for a resident - for seniors"
+
+Given that I am a user on the main page 
+
+When I hover over the section for the resident in the menu section 
+
+And I see popup wimdow with additional sections 
+
+And I hover over the "for seniors"
+
+And I click on the selected section with the left mouse button
+
+And I ckick on the "open link in new tab" section
+
+And I see a new tab open 
+
+And I click on this new tab 
+
+Then I see that the page of the selected section has loaded in a new tab
+
+
+Test Case 25
+
+Function (name): "Does all the links menu work, for a resident - for students"
+
+Given that I am a user on the main page 
+
+When I hover over the section for the resident in the menu section 
+
+And I see popup wimdow with additional sections 
+
+And I hover over the "for students"
+
+And I click on the selected section 
+
+And I see that the page has reloaded 
+
+Then I see that the page of the selected section has loaded
+
+
+Test Case 26
+
+Function (name): "Does all the links menu work, for a resident - for students"
+
+Given that I am a user on the main page 
+
+When I hover over the section for the resident in the menu section 
+
+And I see popup wimdow with additional sections 
+
+And I hover over the "for students"
+
+And I click on the selected section with the left mouse button
+
+And I ckick on the "open link in new tab" section
+
+And I see a new tab open 
+
+And I click on this new tab 
+
+Then I see that the page of the selected section has loaded in a new tab
+
+
+
+Test Case 27
+
+Function (name): "Does the links of the panel on the right work, timetables"
+
+Given that I am a user on the main page and see the panel on the right 
+
+When I hover over the "timetables" siction 
+
+And I click on the "timetables" 
+
+And I see the page is reloading 
+
+Then I see that the page of the selected section has loaded 
+
+
+Test Case 28
+
+Function (name): "Does the links of the panel on the right work, timetables"
+
+Given that I am a user on the main page and see the panel on the right 
+
+When I hover over the "timetables" siction 
+
+And I click on the selected section with the left mouse button
+
+And I ckick on the "open link in new tab" section
+
+And I see a new tab open 
+
+And I click on this new tab 
+
+Then I see that the page of the selected section has loaded in a new tab
+
+
+Test Case 29
+
+Function (name): "Does the links of the panel on the right work, wroclaw map"
+
+Given that I am a user on the main page and see the panel on the right 
+
+When I hover over the "" siction 
+
+And I click on the "wroclaw map" 
+
+And I see the page is reloading 
+
+Then I see that the page of the selected section has loaded 
+
+
+Test Case 30
+
+Function (name): "Does the links of the panel on the right work, wroclaw map"
+
+Given that I am a user on the main page and see the panel on the right 
+
+When I hover over the "wroclaw map" siction 
+
+And I click on the selected section with the left mouse button
+
+And I ckick on the "open link in new tab" section
+
+And I see a new tab open 
+
+And I click on this new tab 
+
+Then I see that the page of the selected section has loaded in a new tab
+
+
+Test Case 31
+
+Function (name): "Does the links of the panel on the right work, important telephones"
+
+Given that I am a user on the main page and see the panel on the right 
+
+When I hover over the "important telephones" siction 
+
+And I click on the siction 
+
+And I see the page is reloading 
+
+Then I see that the page of the selected section has loaded 
+
+
+Test Case 32
+
+Function (name): "Does the links of the panel on the right work, important telephones"
+
+Given that I am a user on the main page and see the panel on the right 
+
+When I hover over the "important telephones" siction 
+
+And I click on the selected section with the left mouse button
+
+And I ckick on the "open link in new tab" section
+
+And I see a new tab open 
+
+And I click on this new tab 
+
+Then I see that the page of the selected section has loaded in a new tab
+
+
+Test Case 33
+
+Function (name): "Does the links of the panel on the right work, city hall helplens"
+
+Given that I am a user on the main page and see the panel on the right 
+
+When I hover over the "city hall helplens" siction 
+
+And I click on the siction 
+
+And I see the page is reloading 
+
+Then I see that the page of the selected section has loaded 
+
+
+Test Case 34
+
+Function (name): "Does the links of the panel on the right work, city hall helplens"
+
+Given that I am a user on the main page and see the panel on the right 
+
+When I hover over the "city hall helplens" siction 
+
+And I click on the selected section with the left mouse button
+
+And I ckick on the "open link in new tab" section
+
+And I see a new tab open 
+
+And I click on this new tab 
+
+Then I see that the page of the selected section has loaded in a new tab
+
+
+Test Case 35
+
+Function (name): "Does the links of the panel on the right work, PLIP"
+
+Given that I am a user on the main page and see the panel on the right 
+
+When I hover over the "PLIP" siction 
+
+And I click on the siction 
+
+And I see the page is reloading 
+
+Then I see that the page of the selected section has loaded 
+
+
+Test Case 36
+
+Function (name): "Does the links of the panel on the right work, PLIP"
+
+Given that I am a user on the main page and see the panel on the right 
+
+When I hover over the "PLIP" siction 
+
+And I click on the selected section with the left mouse button
+
+And I ckick on the "open link in new tab" section
+
+And I see a new tab open 
+
+And I click on this new tab 
+
+Then I see that the page of the selected section has loaded in a new tab
+
+
+
+Test Case 37
+
+Function (name): "Does the links of the panel on the right work, our Wroclaw"
+
+Given that I am a user on the main page and see the panel on the right 
+
+When I hover over the "our Wroclaw" siction 
+
+And I click on the siction 
+
+And I see the page is reloading 
+
+Then I see that the page of the selected section has loaded 
+
+
+Test Case 38
+
+Function (name): "Does the links of the panel on the right work, our Wroclaw"
+
+Given that I am a user on the main page and see the panel on the right 
+
+When I hover over the "our Wroclaw" siction 
+
+And I click on the selected section with the left mouse button
+
+And I ckick on the "open link in new tab" section
+
+And I see a new tab open 
+
+And I click on this new tab 
+
+Then I see that the page of the selected section has loaded in a new tab
+
+
+
+Test Case 39 
+
+
+Function (name): "Search functionality"
+
+Given that I am a user on the main page 
+
+When I click on the search bar 
+
+And I enter an existing word on the site "Wroclaw" 
+
+And I click on the search button 
+
+And I see the page is reloading 
+
+Then T see that a page has loaded that displays all the links where this word is indicated 
+
+
+
+Test Case 40 
+
+Function (name): "Search functionality"
+
+Given that I am a user on the main page 
+
+When I click on the search bar 
+
+And I enter an existing word on the site "startup" 
+
+And I click on the search button 
+
+And I see the page is reloading 
+
+Then T see that a page has loaded that displays all the links where this word is indicated 
+
+
+Test Case 41 
+
+Function (name): "Search functionality"
+
+Given that I am a user on the main page 
+
+When I click on the search bar 
+
+And I enter an existing word on the site "analyze" 
+
+And I click on the search button 
+
+And I see the page is reloading 
+
+Then T see that a page has loaded that displays all the links where this word is indicated 
+
+
+Test Case 42 
+
+Function (name): "Search functionality"
+
+Given that I am a user on the main page 
+
+When I click on the search bar 
+
+And I enter an existing word on the site "transport" 
+
+And I click on the search button 
+
+And I see the page is reloading 
+
+Then T see that a page has loaded that displays all the links where this word is indicated 
+
+
+Test Case 43
+
+Function (name): "Functionality of searching for non-existen words"
+
+Given that I am a user on the main page 
+
+When I click on the search bar 
+
+And I enter a non-existen set of letters "gthfghjk"
+
+And I click on the search button 
+
+And I see the page is reloading 
+
+Then I see a blank search page
+
+
+Test Case 44
+
+Function (name): "Functionality of searching for non-existen words"
+
+Given that I am a user on the main page 
+
+When I click on the search bar 
+
+And I enter a non-existen set of letters "homogeneous"
+
+And I click on the search button 
+
+And I see the page is reloading 
+
+Then I see a blank search page
+
+
+Test Case 45
+
+Function (name): "Functionality of searching for non-existen numbers"
+
+Given that I am a user on the main page 
+
+When I click on the search bar 
+
+And I enter a non-existen set of letters "1122334455"
+
+And I click on the search button 
+
+And I see the page is reloading 
+
+Then I see a blank search page
+
+
+Test Case 46
+
+Function (name): "Search functionality numbers"
+
+Given that I am a user on the main page 
+
+When I click on the search bar 
+
+And I enter an existing numbers on the site "12345" 
+
+And I click on the search button 
+
+And I see the page is reloading 
+
+Then T see that a page has loaded that displays all the links where this word is indicated 
+
+
+
+Test Case 47
+
+Function (name): "Accesibility functionallities, "A" section"
+
+Given that I am a user on the main page 
+
+When I hover over the "-" charecter in the "A" section 
+
+And I click on the "-" symbol 
+
+Then I see how the font on the whole page becomes smaller 
+
+
+Test Case 48 
+
+Function (name): "Accesibility functionallities, "A|A" section"
+
+Given that I am a user on the main page 
+
+When I hover over the right "A" character in the "A|A" section 
+
+And I click on the right "A" symbol 
+
+Then I see the page change light from lito dark 
+
+
+Test Case 49
+
+Function (name): "Accesibility functionallities, "Chat" section"
+
+Given that I am a user on the main page 
+
+When I hover over the "chat" section 
+
+And I click on the "chat" section 
+
+And I see the page is reloading 
+
+Then I see a page with contact details 
+
+
+Test Case 50
+
+Function (name): "Accesibility functionallities, "BEEP" section"
+
+Given that I am a user on the main page 
+
+When I hover over the "BEEP" section 
+
+And I click on the "BEEP" section 
+
+And I see how the page loads in a new tab 
+
+Then I see the public information bulletin 
+
+
+
+
+
+
