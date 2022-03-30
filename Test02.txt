@@ -1,3 +1,5 @@
+Test Case: 1
+
 Feature (Title):"  "Succesful Login functionality"
 
 Given I am as a User in the facebook welcome page.
@@ -9,13 +11,13 @@ And as a User I click the button Login
 Then I see the homepage
 
 
-
+Test Case: 2
 
 Feature (Title):"  "Invalid credentials handling functionality"
 
 Given I am as a User in the facebook welcome page.
 
-When I enter invalid login() and enter invalid password().
+When I enter invalid login() and enter invalid password()
 
 And as a User I click the button Login
 
